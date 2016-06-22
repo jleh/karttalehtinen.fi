@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    z-index: 100;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.address-card {
+    background-color: #fff;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-shadow: 8px 9px 14px;
+}
+
+@media(min-width: 800px) {
+
+    .address-card {
+        transform: rotate(8deg);
+        top: 3em;
+    }
+
+}
+
+.github {
+    color: #000;
+}
+
+.github:hover {
+    color: #434245;
+}
+
+.linkedin {
+    color: #007bb5;
+}
+
+.link-buttons {
+    font-size: 1.75em;
+}
+
+.profile-card-image {
+    top: 1.5em;
+    position: relative;
+    max-width: 100%;
+}
+
+.upper-area {
+    padding-bottom: 2em;
+    height: 23.5em;
+}
+
+#map-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#background-map {
+    height: 100%;
+    width: 100%;
+}
+
+.content-area {
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.content-card {
+    background-color: #fff;
+    border: 8px solid #fff;
+}
+
+.helsinki-ennen-background {
+    background-image: url("../web_images/helsinki.png");
+    background-position: 1305px -261px;
+}
+
+.helsinki-ennen-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: 1em;
+}
+
+.kuntapeli .content-card {
+    height: 12em;
+}
